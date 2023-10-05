@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flex{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex .form{
+    width: 30vw;
+    height: 50vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.flex .form form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;   
+}
+
+.flex .form form input{
+    width: 10vw;
+    padding: 5px;
+}
