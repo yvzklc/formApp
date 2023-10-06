@@ -52,6 +52,9 @@
  font-size: 1.5rem;
 }
 
+.flex .form form input:focus {
+    outline:none 
+}
 .flex .form form input{
     width: 12vw;
     padding: 12px;   
@@ -68,4 +71,5 @@
    background-color: #ffffff00;
    cursor: pointer;
    color: #ffffff;
+   
 }
